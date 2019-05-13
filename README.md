@@ -13,6 +13,7 @@
 
 ### model:
 XGBRegressor
+parameter : max_depth=10, n_estimators=1000, min_child_weight=300, colsample_bytree=0.8, subsample=0.8, eta=0.3
 
 ### feature selection
 first, try to train with all the feature. Then use the function "plot_features" to delete the unimportant features.
