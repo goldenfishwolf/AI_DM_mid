@@ -32,7 +32,8 @@ baseline 0.90646 is the best.
 #### model:
 * the loss of linear regression、lasso、ridge are about 5.1
 * the loss of SVR、SVM are about 0.98
-* the loss of decision tree is about 1.2
+* the loss of decision tree is about 1.2 (
+  PS : this model predict that all the result are the same value, I guess the problem is my data preprocessing.
 
 
 
