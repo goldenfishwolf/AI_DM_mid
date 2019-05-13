@@ -11,25 +11,25 @@
 * add price trend features
 * add date (months, and days)
 
-##### model:
+### model:
 XGBRegressor
 
-##### feature selection
+### feature selection
 first, try to train with all the feature. Then use the function "plot_features" to delete the unimportant features.
 
-##### description:
+### description:
 baseline 0.90646 is the best.
 
-### Fail Try:
+## Fail Try:
 
-##### data preprocessing:
+### data preprocessing:
 
 * the features of training set are only date_block_num, shop_id, item_id, average items price every months, every shops
 * delete items which price >= 100000 or sales >= 999.
 * although some shops are almost the same, but still treat them as different shop.
 * some of test set are not in the training set, so fill those blanks with zeros.
 
-#### model:
+### model:
 * the loss of linear regression, ElasticNet, lasso, ridge are about 5.1
 * the loss of SVR, SVM are about 0.98
 
